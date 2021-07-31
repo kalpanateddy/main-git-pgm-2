@@ -19,5 +19,8 @@ public class PushPull {
 	WebElement login = driver.findElement(By.name("login"));
 	login.click();
 	
+	System.out.println(txtUserName);
+	System.out.println(login);
+	
 
 }}
