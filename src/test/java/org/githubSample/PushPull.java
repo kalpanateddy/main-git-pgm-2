@@ -18,7 +18,15 @@ public class PushPull {
 	userName.sendKeys("password");
 	WebElement login = driver.findElement(By.name("login"));
 	login.click();
+
+	=======
+			System.out.println(txtUserName);
+			System.out.println(login);
+		>>>>>>> 668f4dac367eab5c5840361a90ba5db1eb151694
+
 	
+	
+<<<<<<< HEAD
 	System.out.println("pull activities");
 	System.out.println("done");
 	
